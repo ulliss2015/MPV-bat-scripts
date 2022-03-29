@@ -1,22 +1,27 @@
 @echo off
-TITLE ‚ë¡®à ¯«¥©«¨áâ 
-:vibor
+TITLE Playlist choise
 
+:vibor
 echo.1.Jefferson Airplane.m3u
 echo.2.Fallout New Vegas Radio.m3u
 echo.3.Radio.m3u
-set /p param="‚¢¥¤¨â¥ ¢ è ¢ à¨ ­â: "
+
+set /p param="Enter num: "
 if "%param%"=="1" goto :next
 if "%param%"=="2" goto :next
 if "%param%"=="3" goto :next
+
 echo.
-echo. "„ãà ª? ­ ¦¬¨ æ¨äàã!!!" 
+echo. "â€žÃ£Ã Â Âª? Â­Â Â¦Â¬Â¨ Ã¦Â¨Ã¤Ã Ã£!!!" 
 echo.
+
 goto :vibor
+
 :next
 echo.
-if "%param%"=="1" echo     ‡ ¯ãª ä ©«  Jefferson Airplane.m3u & start mpv.exe --no-video --force-window jefferson_airplane.m3u
-if "%param%"=="2" echo     ‡ ¯ãª ä ©«  Fallout New Vegas Radio.m3u & start mpv.exe --no-video --force-window fallout_new_vegas_radio.m3u
-if "%param%"=="3" echo     ‡ ¯ãª ä ©«  Radio.m3u & start mpv.exe --no-video --force-window Radio.m3u
+if "%param%"=="1" echo     Start playlistÂ  Jefferson Airplane.m3u & start mpv.exe --no-video --force-window jefferson_airplane.m3u
+if "%param%"=="2" echo     Start playlistÂ Â Fallout New Vegas Radio.m3u & start mpv.exe --no-video --force-window fallout_new_vegas_radio.m3u
+if "%param%"=="3" echo     Start playlistÂ  Radio.m3u & start mpv.exe --no-video --force-window Radio.m3u
 echo.
+
 goto :vibor
