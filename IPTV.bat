@@ -1,5 +1,5 @@
 @echo off
-TITLE chenal choise
+TITLE chanal choise
 :choise
 
 echo.1. American TV		7. Russia TV	
