@@ -31,16 +31,16 @@ goto :choise
 :next
 
 echo.
-if "%param%"=="1" echo     ‡ ¯ãª ä ©«   american TV.m3u & start mpv.exe --script-opts=iptv=1 "american TV.m3u"
-if "%param%"=="2" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "eng TV.m3u"
-if "%param%"=="3" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "eur TV.m3u"
-if "%param%"=="4" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "ua TV.m3u"
-if "%param%"=="5" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "ukraine TV.m3u"
-if "%param%"=="6" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "ru TV.m3u" 
-if "%param%"=="7" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "russia TV.m3u"
-if "%param%"=="8" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "uk TV.m3u"
-if "%param%"=="9" echo     ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "usa TV.m3u"
-if "%param%"=="10" echo    ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "usa mirror TV.m3u"
-if "%param%"=="11" echo    ‡ ¯ãª ä ©«   & start mpv.exe --script-opts=iptv=1 "poland TV.m3u"
+if "%param%"=="1" echo     Start chanal  American TV & start mpv.exe --script-opts=iptv=1 "american TV.m3u"
+if "%param%"=="2" echo     Start chanal  Englisch TV & start mpv.exe --script-opts=iptv=1 "eng TV.m3u"
+if "%param%"=="3" echo     Start chanal  Europe TV & start mpv.exe --script-opts=iptv=1 "eur TV.m3u"
+if "%param%"=="4" echo     Start chanal  UA TV & start mpv.exe --script-opts=iptv=1 "ua TV.m3u"
+if "%param%"=="5" echo     Start chanal  Ukrain TV & start mpv.exe --script-opts=iptv=1 "ukraine TV.m3u"
+if "%param%"=="6" echo     Start chanal  RU TV & start mpv.exe --script-opts=iptv=1 "ru TV.m3u" 
+if "%param%"=="7" echo     Start chanal  Russia & start mpv.exe --script-opts=iptv=1 "russia TV.m3u"
+if "%param%"=="8" echo     Start chanal  UK TV & start mpv.exe --script-opts=iptv=1 "uk TV.m3u"
+if "%param%"=="9" echo     Start chanal  USA TV & start mpv.exe --script-opts=iptv=1 "usa TV.m3u"
+if "%param%"=="10" echo    Start chanal  USA mirror TV & start mpv.exe --script-opts=iptv=1 "usa mirror TV.m3u"
+if "%param%"=="11" echo    Start chanal  Poland TV & start mpv.exe --script-opts=iptv=1 "poland TV.m3u"
 echo.
 goto :choise
