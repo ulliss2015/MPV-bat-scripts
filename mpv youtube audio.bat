@@ -12,7 +12,7 @@ if "%param%"=="2" goto :next
 if "%param%"=="3" goto :next
 
 echo.
-echo. "„ãà ª? ­ ¦¬¨ æ¨äàã!!!" 
+echo. "Stupid? Give me a number!!!" 
 echo.
 
 goto :vibor
